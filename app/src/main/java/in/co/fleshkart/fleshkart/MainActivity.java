@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
-            Intent intent = new Intent(this, LocationPickerActivity.class);
+            Intent intent = new Intent(this, MapsActivity.class);
             this.startActivity(intent);
 
         }

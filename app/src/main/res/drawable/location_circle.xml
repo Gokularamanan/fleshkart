@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:innerRadiusRatio="1"
+    android:shape="oval">
+    <solid
+        android:color="@color/location_circle_color"/>
+    <stroke
+        android:color="@color/location_circle_border_color"
+        android:width="@dimen/location_map_circle_stroke_width" />
+</shape>
