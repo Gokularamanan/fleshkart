@@ -95,8 +95,15 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
+            Intent intent = new Intent(this, SignInActivity.class);
+            this.startActivity(intent);
+            Log.d(TAG, "nav_manage is cliecked");
 
         } else if (id == R.id.nav_share) {
+            Intent intent = new Intent(this, Bugactivity.class);
+            this.startActivity(intent);
+            Log.d(TAG, "Nav_share is cliecked");
+
 
         } else if (id == R.id.nav_send) {
             Intent intent = new Intent(this, MapsActivity.class);
