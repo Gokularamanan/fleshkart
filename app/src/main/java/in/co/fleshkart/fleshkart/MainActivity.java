@@ -89,26 +89,27 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_camera) {
-            // Handle the camera action
+            Intent intent = new Intent(this, CameraPhotoCapture.class);
+            this.startActivity(intent);
+            Log.d(TAG, "nav_camera is clicked");
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_signin) {
             Intent intent = new Intent(this, SignInActivity.class);
             this.startActivity(intent);
-            Log.d(TAG, "nav_manage is cliecked");
+            Log.d(TAG, "nav_signin is clicked");
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_bug) {
             Intent intent = new Intent(this, Bugactivity.class);
             this.startActivity(intent);
-            Log.d(TAG, "Nav_share is cliecked");
+            Log.d(TAG, "nav_bug is clicked");
 
-
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_map) {
             Intent intent = new Intent(this, MapsActivity.class);
             this.startActivity(intent);
-            Log.d(TAG, "Nav_send is cliecked");
+            Log.d(TAG, "nav_map is clicked");
 
         }
 
