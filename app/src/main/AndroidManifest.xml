@@ -15,7 +15,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -55,10 +55,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".SignInActivity"
-            android:label="@string/title_activity_sign_in"></activity>
+            android:label="@string/title_activity_sign_in" />
         <activity
             android:name=".CameraPhotoCapture"
-            android:label="@string/title_activity_camera"></activity>
+            android:label="@string/title_activity_camera" />
+        <activity android:name=".GalleryPhotoPicker"></activity>
     </application>
 
 </manifest>
