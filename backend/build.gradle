@@ -22,10 +22,13 @@ sourceCompatibility = JavaVersion.VERSION_1_7
 targetCompatibility = JavaVersion.VERSION_1_7
 
 dependencies {
-  appengineSdk 'com.google.appengine:appengine-java-sdk:1.9.18'
-  compile 'com.google.appengine:appengine-endpoints:1.9.18'
-  compile 'com.google.appengine:appengine-endpoints-deps:1.9.18'
-  compile 'javax.servlet:servlet-api:2.5'
+    appengineSdk 'com.google.appengine:appengine-java-sdk:1.9.18'
+    compile 'com.google.appengine:appengine-endpoints:1.9.18'
+    compile 'com.google.appengine:appengine-endpoints-deps:1.9.18'
+    compile 'javax.servlet:servlet-api:2.5'
+    compile 'org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final'
+    compile 'io.apigee.gcm:gcm-server:1.0.0'
+    compile 'com.google.appengine.orm:datanucleus-appengine:2.1.2'
 }
 
 appengine {
