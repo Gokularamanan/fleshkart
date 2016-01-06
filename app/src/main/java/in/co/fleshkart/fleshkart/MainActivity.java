@@ -96,7 +96,10 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this, GalleryPhotoPicker.class);
             this.startActivity(intent);
             Log.d(TAG, "nav_gallery is clicked");
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_reg) {
+            Intent intent = new Intent(this, RegActivity.class);
+            this.startActivity(intent);
+            Log.d(TAG, "nav_reg is clicked");
 
         } else if (id == R.id.nav_signin) {
             Intent intent = new Intent(this, SignInActivity.class);

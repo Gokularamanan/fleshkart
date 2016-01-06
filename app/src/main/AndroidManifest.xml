@@ -59,7 +59,16 @@
         <activity
             android:name=".CameraPhotoCapture"
             android:label="@string/title_activity_camera" />
-        <activity android:name=".GalleryPhotoPicker"></activity>
+        <activity android:name=".GalleryPhotoPicker" />
+        <activity android:name=".RegActivity" />
+
+        <service
+            android:name=".RegistrationIntentService"
+            android:exported="false" />
+        <service
+            android:name=".MyGcmListenerService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
