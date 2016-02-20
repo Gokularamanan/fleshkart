@@ -17,6 +17,7 @@ public class MapsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+		//Checking git
         setContentView(R.layout.activity_maps);
         final ActionBar actionBar = getActionBar();
         if (actionBar != null) {
